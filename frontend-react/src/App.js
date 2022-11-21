@@ -5,13 +5,13 @@ import './App.scss'
 const App = () => {
   return (
     <div className='app'>
-      {/* <Navbar /> */}
-      <About />
-      <Footer />
+      <Navbar />
       <Header />
+      <About />
       <Testimonial />
       <Skills />
       <Work />
+      <Footer />
     </div>
   )
 }
